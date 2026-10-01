@@ -31,18 +31,6 @@
     "main",
     "release/*"
   ],
-  "DeployToEUUAT": {
-    "EnvironmentType": "SaaS",
-    "EnvironmentName": "EU_UAT",
-    "Branches": [
-      "release/*"
-    ],
-    "projects": "*",
-    "SyncMode": "Add",
-    "Scope": "PTE",
-    "ContinuousDeployment": true,
-    "dependencyInstallMode": "install"
-  },
   "DeployToEUSIT": {
     "EnvironmentType": "SaaS",
     "EnvironmentName": "EU_SIT",
