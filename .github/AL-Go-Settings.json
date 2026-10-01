@@ -21,8 +21,8 @@
   "githubRunnerShell": "powershell",
   "runs-on": "windows-latest",
   "country": "base",
-  "repoVersion": "28.3",
-  "artifact": "//28.3//first",
+  "repoVersion": "28.5",
+  "artifact": "//28.5//first",
   "failOn": "none",
   "updateDependencies": false,
   "versioningStrategy": 18,
@@ -31,6 +31,30 @@
     "main",
     "release/*"
   ],
+  "DeployToEUUAT": {
+    "EnvironmentType": "SaaS",
+    "EnvironmentName": "EU_UAT",
+    "Branches": [
+      "release/*"
+    ],
+    "projects": "*",
+    "SyncMode": "Add",
+    "Scope": "PTE",
+    "ContinuousDeployment": true,
+    "dependencyInstallMode": "install"
+  },
+  "DeployToEUSIT": {
+    "EnvironmentType": "SaaS",
+    "EnvironmentName": "EU_SIT",
+    "Branches": [
+      "release/*"
+    ],
+    "projects": "*",
+    "SyncMode": "Add",
+    "Scope": "PTE",
+    "ContinuousDeployment": true,
+    "dependencyInstallMode": "install"
+  },
    "DeployToEUQA": {
     "EnvironmentType": "SaaS",
     "EnvironmentName": "EU_DEV",
@@ -47,7 +71,7 @@
     "EnvironmentType": "SaaS",
     "EnvironmentName": "EU_QA",
     "Branches": [
-      "main"
+      "release/*"
     ],
     "projects": "*",
     "SyncMode": "Add",
@@ -68,9 +92,9 @@
     "dependencyInstallMode": "install"
   },
   "rolandBuildTargets": {
-    "version": "28.3.0.0",
+    "version": "28.5.0.0",
     "platform": "28.0.0.0",
-    "application": "28.3.0.0",
+    "application": "28.5.0.0",
     "runtime": "17.0",
     "dependencyPublishers": [
       "Microsoft"
