@@ -23,7 +23,7 @@
   "country": "base",
   "repoVersion": "28.5",
   "artifact": "//28.5//first",
-  "failOn": "none",
+  "failOn": "error",
   "updateDependencies": false,
   "versioningStrategy": 18,
   "generateDependencyArtifact": true,
@@ -35,7 +35,7 @@
     "EnvironmentType": "SaaS",
     "EnvironmentName": "EU_SIT",
     "Branches": [
-      "release/*"
+      "main"
     ],
     "projects": "*",
     "SyncMode": "Add",
@@ -59,6 +59,7 @@
     "EnvironmentType": "SaaS",
     "EnvironmentName": "EU_QA",
     "Branches": [
+      "main",
       "release/*"
     ],
     "projects": "*",
