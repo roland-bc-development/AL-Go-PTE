@@ -68,12 +68,6 @@
     "ContinuousDeployment": false,
     "dependencyInstallMode": "install"
   },
-   "DeployToUSQA": {
-    "EnvironmentType": "SaaS",
-    "EnvironmentName": "US_DEV",
-    "Branches": [
-      "main"
-    ],
     "projects": "*",
     "SyncMode": "Add",
     "Scope": "PTE",
