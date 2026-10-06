@@ -17,7 +17,6 @@
   "useCompilerFolder": true,
   "doNotPublishApps": true,
   "doNotBuildTests": true,
-  "githubRunner": "self-hosted",
   "githubRunnerShell": "powershell",
   "runs-on": "windows-latest",
   "country": "base",
