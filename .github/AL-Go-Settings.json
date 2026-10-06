@@ -21,11 +21,11 @@
   "githubRunnerShell": "powershell",
   "runs-on": "windows-latest",
   "country": "base",
-  "repoVersion": "28.5.1",
+  "repoVersion": "28.5",
   "artifact": "//28.5//first",
   "failOn": "error",
   "updateDependencies": false,
-  "versioningStrategy": 3,
+  "versioningStrategy": 2,
   "generateDependencyArtifact": true,
   "CICDPushBranches": [
     "main",
