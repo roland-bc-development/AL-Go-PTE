@@ -67,14 +67,5 @@
     "Scope": "PTE",
     "ContinuousDeployment": false,
     "dependencyInstallMode": "install"
-  },
-  "rolandBuildTargets": {
-    "version": "28.5.0.0",
-    "platform": "28.0.0.0",
-    "application": "28.5.0.0",
-    "runtime": "17.0",
-    "dependencyPublishers": [
-      "Microsoft"
-    ]
   }
 }
