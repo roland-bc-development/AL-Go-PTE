@@ -30,42 +30,5 @@
   "CICDPushBranches": [
     "main",
     "release/*"
-  ],
-  "DeployToEUSIT": {
-    "EnvironmentType": "SaaS",
-    "EnvironmentName": "EU_SIT",
-    "Branches": [
-      "main"
-    ],
-    "projects": "*",
-    "SyncMode": "Add",
-    "Scope": "PTE",
-    "ContinuousDeployment": true,
-    "dependencyInstallMode": "install"
-  },
-   "DeployToEUQA": {
-    "EnvironmentType": "SaaS",
-    "EnvironmentName": "EU_DEV",
-    "Branches": [
-      "main"
-    ],
-    "projects": "*",
-    "SyncMode": "Add",
-    "Scope": "PTE",
-    "ContinuousDeployment": true,
-    "dependencyInstallMode": "install"
-  },
-   "DeployToEUPROD": {
-    "EnvironmentType": "SaaS",
-    "EnvironmentName": "EU_QA",
-    "Branches": [
-      "main",
-      "release/*"
-    ],
-    "projects": "*",
-    "SyncMode": "Add",
-    "Scope": "PTE",
-    "ContinuousDeployment": false,
-    "dependencyInstallMode": "install"
-  }
+  ]
 }
